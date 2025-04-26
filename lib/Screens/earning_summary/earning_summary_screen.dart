@@ -5,7 +5,6 @@ import 'package:earning_app/Screens/earning_summary/widgets/earning_summary_comm
 import 'package:earning_app/Screens/setting_privacy/setting_privacy_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class EarningSummaryScreen extends StatelessWidget {
   //normal object create garda var obj_name=classname()
@@ -128,7 +127,6 @@ class EarningSummaryScreen extends StatelessWidget {
                   const SizedBox(height: 10),
                   Container(height: 1, color: Colors.grey),
                   const SizedBox(height: 10),
-
                   // Row 1
                   Obx(
                     () => EarningSummaryCommonWidget.jobRow(
