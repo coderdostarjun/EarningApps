@@ -10,4 +10,6 @@ class settingPrivacyCommon
   {
     return Text(name, style: TextStyle(color:Color(0xff000000),fontWeight: FontWeight.w500,fontSize: 18));
   }
+
+
 }
