@@ -1,6 +1,7 @@
 import 'package:earning_app/Common%20Componets/common_button.dart';
 import 'package:earning_app/Common%20Componets/common_style.dart';
 import 'package:earning_app/Controllers/earning_summary/earning_summary_controller.dart';
+import 'package:earning_app/Screens/contact_support/contact_support.dart';
 import 'package:earning_app/Screens/earning_summary/widgets/earning_summary_common_widget.dart';
 import 'package:earning_app/Screens/setting_privacy/setting_privacy_screen.dart';
 import 'package:flutter/material.dart';
@@ -174,7 +175,7 @@ class EarningSummaryScreen extends StatelessWidget {
             const SizedBox(height: 18),
             CommonButton(text: 'View Job History', onPressed: () {}),
             const SizedBox(height: 18),
-            CommonButton(text: 'Contact Support', onPressed: () {}),
+            CommonButton(text: 'Contact Support', onPressed: () {Get.to(()=>ContactSupport());}),
           ],
         ),
       ),
